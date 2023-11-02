@@ -3,6 +3,13 @@ package nl.tudelft.jpacman.board;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
+/**
+* Hero is the main entity we'll be using to . . .
+* 
+* Please see the {@link com.baeldung.javadoc.Person} class for true identity
+* @author Captain America
+* 
+*/
 public class BoardTest {
     private Board board;
     int width = 1;
