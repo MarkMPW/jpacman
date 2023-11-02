@@ -12,8 +12,8 @@ import static org.assertj.core.api.Assertions.assertThat;
 */
 public class BoardTest {
     private Board board;
-    int width = 1;
-    int height = 1;
+    private int width = 1;
+    private int height = 1;
     @BeforeEach
     void setUp() {
         Square[][] grid = new Square[width][height];
