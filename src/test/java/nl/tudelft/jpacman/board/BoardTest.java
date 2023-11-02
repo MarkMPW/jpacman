@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 /***
-* JavaDoc method 
+* JavaDoc method.
 */
 
 public class BoardTest {
@@ -13,7 +13,7 @@ public class BoardTest {
     private int width = 1;
     private int height = 1;
     /**
-     * setUp
+     * setUp.
     */
     @BeforeEach
     void setUp() {
@@ -22,7 +22,7 @@ public class BoardTest {
         board = new Board(grid);
     }
     /***
-    * Test invariant
+    * Test invariant.
     */    
     @Test
     void testInvariant() {
@@ -30,7 +30,7 @@ public class BoardTest {
     }
 
     /***
-    * Test width
+    * Test width.
     */    
     @Test
     void testWidth() {
@@ -38,7 +38,7 @@ public class BoardTest {
     }
 
     /***
-    * Test height
+    * Test height.
     */    
     @Test
     void testHeight() {
@@ -46,7 +46,7 @@ public class BoardTest {
     }
 
     /***
-    * Test square with null square
+    * Test square with null square.
     */    
     @Test
     void testSquareAtWithNullSquare() {
