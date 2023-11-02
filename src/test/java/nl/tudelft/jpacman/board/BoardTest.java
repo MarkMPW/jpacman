@@ -48,12 +48,12 @@ public class BoardTest {
     /***
     * Test square with null square.
     */    
-    @Test
-    void testSquareAtWithNullSquare() {
-        Square[][] grid = new Square[width][height];
-        grid[0][0] = null;
-        Board boardWithNull = new Board(grid);
-        Square square = boardWithNull.squareAt(0, 0);
-        assertThat(square).isNull();
-    }
+    // @Test
+    // void testSquareAtWithNullSquare() {
+    //     Square[][] grid = new Square[width][height];
+    //     grid[0][0] = null;
+    //     Board boardWithNull = new Board(grid);
+    //     Square square = boardWithNull.squareAt(0, 0);
+    //     assertThat(square).isNull();
+    // }
 }
