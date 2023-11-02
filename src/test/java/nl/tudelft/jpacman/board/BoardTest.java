@@ -4,10 +4,17 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
+/***
+* JavaDoc method 
+*/
+
 public class BoardTest {
     private Board board;
     private int width = 1;
     private int height = 1;
+    /**
+     * setUp
+    */
     @BeforeEach
     void setUp() {
         Square[][] grid = new Square[width][height];
@@ -15,7 +22,7 @@ public class BoardTest {
         board = new Board(grid);
     }
     /***
-    *
+    * Test invariant
     */    
     @Test
     void testInvariant() {
@@ -23,7 +30,7 @@ public class BoardTest {
     }
 
     /***
-    *
+    * Test width
     */    
     @Test
     void testWidth() {
@@ -31,7 +38,7 @@ public class BoardTest {
     }
 
     /***
-    *
+    * Test height
     */    
     @Test
     void testHeight() {
@@ -39,7 +46,7 @@ public class BoardTest {
     }
 
     /***
-    *
+    * Test square with null square
     */    
     @Test
     void testSquareAtWithNullSquare() {
